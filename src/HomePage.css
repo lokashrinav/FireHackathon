@@ -1,91 +1,54 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #root {
-    padding: 0;
-    margin: 0;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: #005f73;
-    overflow-x: hidden;
-}
-
-:root {
-    --vh: 100vh;
-}
-
-html, body {
-    height: calc(var(--vh, 1vh) * 100);
-}
-
-body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: #005f73;
-}
-
-.homepage {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .hero {
-    height: calc(var(--vh, 1vh) * 100);
+    position: relative;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./assets/pexels-valdemaras-d-784301-1670845.jpg") no-repeat center/cover;
-    color: #fff;
-    filter: brightness(1.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url("./assets/pexels-valdemaras-d-784301-1670845.jpg") no-repeat center/cover;
+    color: white;
 }
 
-.homepage {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
 }
 
 .hero-content {
-    color: #005f73;
+    z-index: 1;
 }
 
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
-    margin-top: -50px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-bottom: 40px;
-    text-transform: uppercase;
-    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.explore-button {
+    margin-top: 25px;
 }
 
 .cta-buttons {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -105,84 +68,35 @@ body {
     transform: translateY(-5px);
 }
 
-.stats-snapshot {
-    background-color: #f7f7f7;
+.footer {
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
-.stats-snapshot h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-}
-
-.stats-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-.stat-item {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    width: 200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.stat-item h3 {
-    font-size: 2rem;
-    color: #ff6b6b;
-    margin-bottom: 10px;
-}
-
-.stat-item p {
-    font-size: 1rem;
-}
-
-.interactive-map {
-    background-color: #fff;
-    text-align: center;
-}
-
-.interactive-map h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-}
-
-.map-placeholder {
-    background-color: #e0e0e0;
-    width: 80%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.map-placeholder p {
-    font-size: 1.5rem;
-    color: #666;
-}
-
-.footer {
-    background-color: #333;
-    color: #fff;
+.about {
     padding: 40px 20px;
     text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ff6b6b;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 1.6;
 }
 
 .footer p {
     margin: 0;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 @media (max-width: 768px) {
@@ -198,4 +112,43 @@ body {
         flex-direction: column;
         gap: 10px;
     }
+}
+
+.global-stats {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.global-stats h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff6b6b;
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.stat-item {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item h3 {
+    font-size: 2rem;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 1rem;
+    color: white;
 }
