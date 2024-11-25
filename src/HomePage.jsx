@@ -64,10 +64,36 @@ const Homepage = () => {
             <p>Sea Level Rise</p>
           </div>
         </div>
-        <div className="explore-button" data-aos="fade-up" data-aos-delay="800">
+        <div className="explore-button" data-aos="fade-up" data-aos-delay="650">
           <button className="cta-button">Explore More</button>
         </div>
       </section>
+      <section className="newsletter sub" data-aos="fade-in">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for the latest updates on climate change and how you can help.</p>
+        <form className="newsletter-form">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit" className="cta-button">Subscribe</button>
+        </form>
+      </section>
+
+      <section className="faq sub" data-aos="fade-in">
+        <h2>Frequently Asked Questions</h2>
+        <div className="faq-item" data-aos="fade-up">
+          <h3>What is Climate Change?</h3>
+          <p>Climate change refers to long-term shifts in temperatures and weather patterns, primarily caused by human activities such as burning fossil fuels.</p>
+        </div>
+        <div className="faq-item" data-aos="fade-up" data-aos-delay="50">
+          <h3>How can I reduce my carbon footprint?</h3>
+          <p>You can reduce your carbon footprint by conserving energy, using renewable resources, reducing waste, and supporting sustainable practices.</p>
+        </div>
+      </section>
+      <section className="donation sub" data-aos="fade-in">
+        <h2>Support Our Mission</h2>
+        <p>Your contribution helps us fight climate change and build a sustainable future.</p>
+        <button className="cta-button">Donate Now</button>
+      </section>
+
 
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Climate Action. All rights reserved.</p>
