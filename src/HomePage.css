@@ -1,17 +1,3 @@
-#root {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .hero {
     position: relative;
     height: 100vh;
@@ -20,8 +6,7 @@ body, html {
     align-items: center;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url("./assets/pexels-valdemaras-d-784301-1670845.jpg") no-repeat center/cover;
-    color: white;
+    url("./assets/pexels-valdemaras-d-784301-1670845.jpg") no-repeat center/cover;
 }
 
 .gradient-overlay {
@@ -63,7 +48,6 @@ body, html {
 
 .cta-button {
     background-color: #ff6b6b;
-    color: #fff;
     border: none;
     padding: 15px 20px;
     font-size: 1rem;
@@ -79,7 +63,6 @@ body, html {
 
 .footer {
     background-color: black;
-    color: white;
     text-align: center;
     padding: 20px;
 }
@@ -88,7 +71,6 @@ body, html {
     padding: 40px 20px;
     text-align: center;
     background-color: black;
-    color: white;
 }
 
 .about h2 {
@@ -128,7 +110,6 @@ body, html {
     padding: 20px 20px;
     text-align: center;
     background-color: black;
-    color: white;
 }
 
 .global-stats h2 {
@@ -155,8 +136,7 @@ body, html {
 .newsletter {
     padding: 20px 20px;
     background-color: black;
-    text-align: center;
-    color: white;
+    text-align: cente
 }
 
 .newsletter h2 {
@@ -176,7 +156,7 @@ body, html {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap; /* Allows wrapping on small screens */
+    flex-wrap: wrap;
 }
 
 .newsletter-form input[type="email"] {
@@ -185,7 +165,7 @@ body, html {
     border: 1px solid #ff6b6b;
     border-radius: 30px;
     width: 300px;
-    max-width: 100%; /* Responsive */
+    max-width: 100%; 
     outline: none;
     transition: all 0.3s ease;
 }
@@ -201,8 +181,7 @@ body, html {
 }
 
 .newsletter-form .cta-button {
-    background-color: #ff6b6b;
-    color: white;
+    background-color: black;
     padding: 10px 20px;
     border: none;
     font-size: 1rem;
@@ -244,6 +223,39 @@ body, html {
 }
 
 .stat-item p {
-    font-size: 1rem;
-    color: white;
+    font-size: 1re
 }
+
+.interactive-map {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+  }
+  
+.interactive-map h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+.interactive-map p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.map-container {
+    max-width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+  
