@@ -68,6 +68,21 @@ const Homepage = () => {
           <button className="cta-button">Explore More</button>
         </div>
       </section>
+      <section className="interactive-map" data-aos="fade-in">
+        <h2>Interactive Climate Map</h2>
+        <p>Explore the global impacts of climate change, including deforestation, rising sea levels, and extreme weather events.</p>
+        <div className="map-container">
+          <iframe
+            title="Global Forest Watch Map"
+            src="https://www.globalforestwatch.org/map/?map=eyJjZW50ZXIiOnsibGF0IjoyOC40MDA2NjIwMjcyMDU5NDMsImxuZyI6MzQuMzI0MjE4NzQ5OTk5Mjh9fQ%3D%3D&mapPrompts=eyJvcGVuIjp0cnVlLCJzdGVwc0tleSI6InN1YnNjcmliZVRvQXJlYSJ9"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
       <section className="newsletter sub" data-aos="fade-in">
         <h2>Stay Updated</h2>
         <p>Subscribe to our newsletter for the latest updates on climate change and how you can help.</p>
@@ -76,7 +91,6 @@ const Homepage = () => {
           <button type="submit" className="cta-button">Subscribe</button>
         </form>
       </section>
-
       <section className="faq sub" data-aos="fade-in">
         <h2>Frequently Asked Questions</h2>
         <div className="faq-item" data-aos="fade-up">
@@ -91,9 +105,8 @@ const Homepage = () => {
       <section className="donation sub" data-aos="fade-in">
         <h2>Support Our Mission</h2>
         <p>Your contribution helps us fight climate change and build a sustainable future.</p>
-        <button className="cta-button">Donate Now</button>
+        <a href="https://citizensclimatelobby.org/donate/"><button className="cta-button">Donate Now</button></a>
       </section>
-
 
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} Climate Action. All rights reserved.</p>
