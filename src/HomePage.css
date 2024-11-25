@@ -152,8 +152,72 @@ body, html {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.newsletter {
+    padding: 20px 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+.newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ff6b6b;
+    border-radius: 30px;
+    width: 300px;
+    max-width: 100%; /* Responsive */
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.newsletter-form input[type="email"]:focus {
+    border-color: #ee5253;
+    box-shadow: 0 0 8px rgba(238, 82, 83, 0.5);
+}
+
+.newsletter-form input[type="email"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.newsletter-form .cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.newsletter-form .cta-button:hover {
+    background-color: #ee5253;
+    transform: translateY(-3px);
+}
+
 .faq {
-    padding: 40px 20px;
+    padding: 60px 20px;
     background-color: black;
 }
 
