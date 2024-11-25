@@ -5,8 +5,6 @@ import './App.css'
 import Homepage from './HomePage'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <Homepage/>
   )
