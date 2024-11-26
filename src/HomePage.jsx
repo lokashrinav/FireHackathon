@@ -1,8 +1,21 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./HomePage.css";
 
+const Button = ({ text, navigateTo }) => {
+  const navigate = useNavigate();
+
+  return (
+    <button
+      className="cta-button"
+      onClick={() => navigate(navigateTo)}
+    >
+      {text}
+    </button>
+  );
+};
 const Homepage = () => {
   useEffect(() => {
     AOS.init({
@@ -21,9 +34,7 @@ const Homepage = () => {
             Access real-time data and actionable insights to combat climate change.
           </p>
           <div className="cta-buttons">
-            <button className="cta-button" data-aos="zoom-in" data-aos-delay="400">
-              View Global Stats
-            </button>
+            <Button text="View Global Stats" navigateTo="/global-stats" />
             <button className="cta-button" data-aos="zoom-in" data-aos-delay="600">
               Calculate Your Impact
             </button>

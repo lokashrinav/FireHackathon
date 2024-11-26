@@ -1,0 +1,722 @@
+[
+    {
+        "Year": 1880,
+        "No_Smoothing": -0.18,
+        "Lowess(5)": -0.1
+    },
+    {
+        "Year": 1881,
+        "No_Smoothing": -0.09,
+        "Lowess(5)": -0.14
+    },
+    {
+        "Year": 1882,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.17
+    },
+    {
+        "Year": 1883,
+        "No_Smoothing": -0.18,
+        "Lowess(5)": -0.21
+    },
+    {
+        "Year": 1884,
+        "No_Smoothing": -0.28,
+        "Lowess(5)": -0.24
+    },
+    {
+        "Year": 1885,
+        "No_Smoothing": -0.33,
+        "Lowess(5)": -0.26
+    },
+    {
+        "Year": 1886,
+        "No_Smoothing": -0.31,
+        "Lowess(5)": -0.27
+    },
+    {
+        "Year": 1887,
+        "No_Smoothing": -0.36,
+        "Lowess(5)": -0.27
+    },
+    {
+        "Year": 1888,
+        "No_Smoothing": -0.17,
+        "Lowess(5)": -0.26
+    },
+    {
+        "Year": 1889,
+        "No_Smoothing": -0.1,
+        "Lowess(5)": -0.25
+    },
+    {
+        "Year": 1890,
+        "No_Smoothing": -0.35,
+        "Lowess(5)": -0.25
+    },
+    {
+        "Year": 1891,
+        "No_Smoothing": -0.22,
+        "Lowess(5)": -0.25
+    },
+    {
+        "Year": 1892,
+        "No_Smoothing": -0.27,
+        "Lowess(5)": -0.26
+    },
+    {
+        "Year": 1893,
+        "No_Smoothing": -0.31,
+        "Lowess(5)": -0.26
+    },
+    {
+        "Year": 1894,
+        "No_Smoothing": -0.3,
+        "Lowess(5)": -0.24
+    },
+    {
+        "Year": 1895,
+        "No_Smoothing": -0.23,
+        "Lowess(5)": -0.22
+    },
+    {
+        "Year": 1896,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.21
+    },
+    {
+        "Year": 1897,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.18
+    },
+    {
+        "Year": 1898,
+        "No_Smoothing": -0.28,
+        "Lowess(5)": -0.17
+    },
+    {
+        "Year": 1899,
+        "No_Smoothing": -0.18,
+        "Lowess(5)": -0.17
+    },
+    {
+        "Year": 1900,
+        "No_Smoothing": -0.08,
+        "Lowess(5)": -0.2
+    },
+    {
+        "Year": 1901,
+        "No_Smoothing": -0.15,
+        "Lowess(5)": -0.23
+    },
+    {
+        "Year": 1902,
+        "No_Smoothing": -0.28,
+        "Lowess(5)": -0.26
+    },
+    {
+        "Year": 1903,
+        "No_Smoothing": -0.37,
+        "Lowess(5)": -0.28
+    },
+    {
+        "Year": 1904,
+        "No_Smoothing": -0.47,
+        "Lowess(5)": -0.31
+    },
+    {
+        "Year": 1905,
+        "No_Smoothing": -0.27,
+        "Lowess(5)": -0.34
+    },
+    {
+        "Year": 1906,
+        "No_Smoothing": -0.23,
+        "Lowess(5)": -0.36
+    },
+    {
+        "Year": 1907,
+        "No_Smoothing": -0.39,
+        "Lowess(5)": -0.38
+    },
+    {
+        "Year": 1908,
+        "No_Smoothing": -0.43,
+        "Lowess(5)": -0.4
+    },
+    {
+        "Year": 1909,
+        "No_Smoothing": -0.49,
+        "Lowess(5)": -0.41
+    },
+    {
+        "Year": 1910,
+        "No_Smoothing": -0.44,
+        "Lowess(5)": -0.41
+    },
+    {
+        "Year": 1911,
+        "No_Smoothing": -0.44,
+        "Lowess(5)": -0.39
+    },
+    {
+        "Year": 1912,
+        "No_Smoothing": -0.36,
+        "Lowess(5)": -0.35
+    },
+    {
+        "Year": 1913,
+        "No_Smoothing": -0.34,
+        "Lowess(5)": -0.32
+    },
+    {
+        "Year": 1914,
+        "No_Smoothing": -0.15,
+        "Lowess(5)": -0.31
+    },
+    {
+        "Year": 1915,
+        "No_Smoothing": -0.14,
+        "Lowess(5)": -0.3
+    },
+    {
+        "Year": 1916,
+        "No_Smoothing": -0.36,
+        "Lowess(5)": -0.3
+    },
+    {
+        "Year": 1917,
+        "No_Smoothing": -0.46,
+        "Lowess(5)": -0.3
+    },
+    {
+        "Year": 1918,
+        "No_Smoothing": -0.3,
+        "Lowess(5)": -0.3
+    },
+    {
+        "Year": 1919,
+        "No_Smoothing": -0.28,
+        "Lowess(5)": -0.29
+    },
+    {
+        "Year": 1920,
+        "No_Smoothing": -0.27,
+        "Lowess(5)": -0.28
+    },
+    {
+        "Year": 1921,
+        "No_Smoothing": -0.19,
+        "Lowess(5)": -0.26
+    },
+    {
+        "Year": 1922,
+        "No_Smoothing": -0.28,
+        "Lowess(5)": -0.25
+    },
+    {
+        "Year": 1923,
+        "No_Smoothing": -0.26,
+        "Lowess(5)": -0.24
+    },
+    {
+        "Year": 1924,
+        "No_Smoothing": -0.27,
+        "Lowess(5)": -0.23
+    },
+    {
+        "Year": 1925,
+        "No_Smoothing": -0.22,
+        "Lowess(5)": -0.22
+    },
+    {
+        "Year": 1926,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.22
+    },
+    {
+        "Year": 1927,
+        "No_Smoothing": -0.22,
+        "Lowess(5)": -0.21
+    },
+    {
+        "Year": 1928,
+        "No_Smoothing": -0.2,
+        "Lowess(5)": -0.2
+    },
+    {
+        "Year": 1929,
+        "No_Smoothing": -0.36,
+        "Lowess(5)": -0.19
+    },
+    {
+        "Year": 1930,
+        "No_Smoothing": -0.15,
+        "Lowess(5)": -0.19
+    },
+    {
+        "Year": 1931,
+        "No_Smoothing": -0.09,
+        "Lowess(5)": -0.18
+    },
+    {
+        "Year": 1932,
+        "No_Smoothing": -0.15,
+        "Lowess(5)": -0.17
+    },
+    {
+        "Year": 1933,
+        "No_Smoothing": -0.28,
+        "Lowess(5)": -0.16
+    },
+    {
+        "Year": 1934,
+        "No_Smoothing": -0.12,
+        "Lowess(5)": -0.15
+    },
+    {
+        "Year": 1935,
+        "No_Smoothing": -0.19,
+        "Lowess(5)": -0.13
+    },
+    {
+        "Year": 1936,
+        "No_Smoothing": -0.14,
+        "Lowess(5)": -0.1
+    },
+    {
+        "Year": 1937,
+        "No_Smoothing": -0.03,
+        "Lowess(5)": -0.06
+    },
+    {
+        "Year": 1938,
+        "No_Smoothing": 0.0,
+        "Lowess(5)": -0.01
+    },
+    {
+        "Year": 1939,
+        "No_Smoothing": -0.02,
+        "Lowess(5)": 0.03
+    },
+    {
+        "Year": 1940,
+        "No_Smoothing": 0.13,
+        "Lowess(5)": 0.07
+    },
+    {
+        "Year": 1941,
+        "No_Smoothing": 0.19,
+        "Lowess(5)": 0.09
+    },
+    {
+        "Year": 1942,
+        "No_Smoothing": 0.07,
+        "Lowess(5)": 0.11
+    },
+    {
+        "Year": 1943,
+        "No_Smoothing": 0.09,
+        "Lowess(5)": 0.1
+    },
+    {
+        "Year": 1944,
+        "No_Smoothing": 0.21,
+        "Lowess(5)": 0.08
+    },
+    {
+        "Year": 1945,
+        "No_Smoothing": 0.09,
+        "Lowess(5)": 0.04
+    },
+    {
+        "Year": 1946,
+        "No_Smoothing": -0.07,
+        "Lowess(5)": 0.01
+    },
+    {
+        "Year": 1947,
+        "No_Smoothing": -0.03,
+        "Lowess(5)": -0.04
+    },
+    {
+        "Year": 1948,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.07
+    },
+    {
+        "Year": 1949,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.08
+    },
+    {
+        "Year": 1950,
+        "No_Smoothing": -0.17,
+        "Lowess(5)": -0.08
+    },
+    {
+        "Year": 1951,
+        "No_Smoothing": -0.07,
+        "Lowess(5)": -0.07
+    },
+    {
+        "Year": 1952,
+        "No_Smoothing": 0.01,
+        "Lowess(5)": -0.07
+    },
+    {
+        "Year": 1953,
+        "No_Smoothing": 0.08,
+        "Lowess(5)": -0.07
+    },
+    {
+        "Year": 1954,
+        "No_Smoothing": -0.13,
+        "Lowess(5)": -0.06
+    },
+    {
+        "Year": 1955,
+        "No_Smoothing": -0.14,
+        "Lowess(5)": -0.06
+    },
+    {
+        "Year": 1956,
+        "No_Smoothing": -0.19,
+        "Lowess(5)": -0.05
+    },
+    {
+        "Year": 1957,
+        "No_Smoothing": 0.05,
+        "Lowess(5)": -0.04
+    },
+    {
+        "Year": 1958,
+        "No_Smoothing": 0.06,
+        "Lowess(5)": -0.01
+    },
+    {
+        "Year": 1959,
+        "No_Smoothing": 0.03,
+        "Lowess(5)": 0.01
+    },
+    {
+        "Year": 1960,
+        "No_Smoothing": -0.03,
+        "Lowess(5)": 0.03
+    },
+    {
+        "Year": 1961,
+        "No_Smoothing": 0.06,
+        "Lowess(5)": 0.01
+    },
+    {
+        "Year": 1962,
+        "No_Smoothing": 0.03,
+        "Lowess(5)": -0.01
+    },
+    {
+        "Year": 1963,
+        "No_Smoothing": 0.05,
+        "Lowess(5)": -0.03
+    },
+    {
+        "Year": 1964,
+        "No_Smoothing": -0.2,
+        "Lowess(5)": -0.04
+    },
+    {
+        "Year": 1965,
+        "No_Smoothing": -0.11,
+        "Lowess(5)": -0.05
+    },
+    {
+        "Year": 1966,
+        "No_Smoothing": -0.06,
+        "Lowess(5)": -0.06
+    },
+    {
+        "Year": 1967,
+        "No_Smoothing": -0.02,
+        "Lowess(5)": -0.05
+    },
+    {
+        "Year": 1968,
+        "No_Smoothing": -0.08,
+        "Lowess(5)": -0.03
+    },
+    {
+        "Year": 1969,
+        "No_Smoothing": 0.05,
+        "Lowess(5)": -0.02
+    },
+    {
+        "Year": 1970,
+        "No_Smoothing": 0.03,
+        "Lowess(5)": -0.0
+    },
+    {
+        "Year": 1971,
+        "No_Smoothing": -0.08,
+        "Lowess(5)": 0.0
+    },
+    {
+        "Year": 1972,
+        "No_Smoothing": 0.01,
+        "Lowess(5)": 0.0
+    },
+    {
+        "Year": 1973,
+        "No_Smoothing": 0.16,
+        "Lowess(5)": -0.0
+    },
+    {
+        "Year": 1974,
+        "No_Smoothing": -0.07,
+        "Lowess(5)": 0.01
+    },
+    {
+        "Year": 1975,
+        "No_Smoothing": -0.01,
+        "Lowess(5)": 0.02
+    },
+    {
+        "Year": 1976,
+        "No_Smoothing": -0.1,
+        "Lowess(5)": 0.04
+    },
+    {
+        "Year": 1977,
+        "No_Smoothing": 0.18,
+        "Lowess(5)": 0.07
+    },
+    {
+        "Year": 1978,
+        "No_Smoothing": 0.07,
+        "Lowess(5)": 0.12
+    },
+    {
+        "Year": 1979,
+        "No_Smoothing": 0.16,
+        "Lowess(5)": 0.16
+    },
+    {
+        "Year": 1980,
+        "No_Smoothing": 0.26,
+        "Lowess(5)": 0.2
+    },
+    {
+        "Year": 1981,
+        "No_Smoothing": 0.32,
+        "Lowess(5)": 0.21
+    },
+    {
+        "Year": 1982,
+        "No_Smoothing": 0.14,
+        "Lowess(5)": 0.22
+    },
+    {
+        "Year": 1983,
+        "No_Smoothing": 0.31,
+        "Lowess(5)": 0.21
+    },
+    {
+        "Year": 1984,
+        "No_Smoothing": 0.16,
+        "Lowess(5)": 0.21
+    },
+    {
+        "Year": 1985,
+        "No_Smoothing": 0.12,
+        "Lowess(5)": 0.22
+    },
+    {
+        "Year": 1986,
+        "No_Smoothing": 0.18,
+        "Lowess(5)": 0.24
+    },
+    {
+        "Year": 1987,
+        "No_Smoothing": 0.32,
+        "Lowess(5)": 0.27
+    },
+    {
+        "Year": 1988,
+        "No_Smoothing": 0.39,
+        "Lowess(5)": 0.31
+    },
+    {
+        "Year": 1989,
+        "No_Smoothing": 0.27,
+        "Lowess(5)": 0.33
+    },
+    {
+        "Year": 1990,
+        "No_Smoothing": 0.45,
+        "Lowess(5)": 0.33
+    },
+    {
+        "Year": 1991,
+        "No_Smoothing": 0.4,
+        "Lowess(5)": 0.33
+    },
+    {
+        "Year": 1992,
+        "No_Smoothing": 0.22,
+        "Lowess(5)": 0.33
+    },
+    {
+        "Year": 1993,
+        "No_Smoothing": 0.23,
+        "Lowess(5)": 0.33
+    },
+    {
+        "Year": 1994,
+        "No_Smoothing": 0.31,
+        "Lowess(5)": 0.34
+    },
+    {
+        "Year": 1995,
+        "No_Smoothing": 0.45,
+        "Lowess(5)": 0.37
+    },
+    {
+        "Year": 1996,
+        "No_Smoothing": 0.33,
+        "Lowess(5)": 0.4
+    },
+    {
+        "Year": 1997,
+        "No_Smoothing": 0.47,
+        "Lowess(5)": 0.42
+    },
+    {
+        "Year": 1998,
+        "No_Smoothing": 0.61,
+        "Lowess(5)": 0.45
+    },
+    {
+        "Year": 1999,
+        "No_Smoothing": 0.38,
+        "Lowess(5)": 0.47
+    },
+    {
+        "Year": 2000,
+        "No_Smoothing": 0.39,
+        "Lowess(5)": 0.5
+    },
+    {
+        "Year": 2001,
+        "No_Smoothing": 0.54,
+        "Lowess(5)": 0.52
+    },
+    {
+        "Year": 2002,
+        "No_Smoothing": 0.63,
+        "Lowess(5)": 0.55
+    },
+    {
+        "Year": 2003,
+        "No_Smoothing": 0.62,
+        "Lowess(5)": 0.58
+    },
+    {
+        "Year": 2004,
+        "No_Smoothing": 0.53,
+        "Lowess(5)": 0.61
+    },
+    {
+        "Year": 2005,
+        "No_Smoothing": 0.68,
+        "Lowess(5)": 0.62
+    },
+    {
+        "Year": 2006,
+        "No_Smoothing": 0.64,
+        "Lowess(5)": 0.62
+    },
+    {
+        "Year": 2007,
+        "No_Smoothing": 0.66,
+        "Lowess(5)": 0.63
+    },
+    {
+        "Year": 2008,
+        "No_Smoothing": 0.54,
+        "Lowess(5)": 0.64
+    },
+    {
+        "Year": 2009,
+        "No_Smoothing": 0.66,
+        "Lowess(5)": 0.64
+    },
+    {
+        "Year": 2010,
+        "No_Smoothing": 0.73,
+        "Lowess(5)": 0.65
+    },
+    {
+        "Year": 2011,
+        "No_Smoothing": 0.61,
+        "Lowess(5)": 0.67
+    },
+    {
+        "Year": 2012,
+        "No_Smoothing": 0.65,
+        "Lowess(5)": 0.7
+    },
+    {
+        "Year": 2013,
+        "No_Smoothing": 0.68,
+        "Lowess(5)": 0.74
+    },
+    {
+        "Year": 2014,
+        "No_Smoothing": 0.75,
+        "Lowess(5)": 0.79
+    },
+    {
+        "Year": 2015,
+        "No_Smoothing": 0.9,
+        "Lowess(5)": 0.83
+    },
+    {
+        "Year": 2016,
+        "No_Smoothing": 1.02,
+        "Lowess(5)": 0.88
+    },
+    {
+        "Year": 2017,
+        "No_Smoothing": 0.92,
+        "Lowess(5)": 0.91
+    },
+    {
+        "Year": 2018,
+        "No_Smoothing": 0.85,
+        "Lowess(5)": 0.93
+    },
+    {
+        "Year": 2019,
+        "No_Smoothing": 0.98,
+        "Lowess(5)": 0.93
+    },
+    {
+        "Year": 2020,
+        "No_Smoothing": 1.01,
+        "Lowess(5)": 0.95
+    },
+    {
+        "Year": 2021,
+        "No_Smoothing": 0.85,
+        "Lowess(5)": 0.97
+    },
+    {
+        "Year": 2022,
+        "No_Smoothing": 0.89,
+        "Lowess(5)": 0.99
+    },
+    {
+        "Year": 2023,
+        "No_Smoothing": 1.17,
+        "Lowess(5)": 1.01
+    }
+]
