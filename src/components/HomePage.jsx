@@ -34,13 +34,9 @@ const Homepage = () => {
             Access real-time data and actionable insights to combat climate change.
           </p>
           <div className="cta-buttons">
-            <Button text="View Global Stats" navigateTo="/global-stats" />
-            <button className="cta-button" data-aos="zoom-in" data-aos-delay="600">
-              Calculate Your Impact
-            </button>
-            <button className="cta-button" data-aos="zoom-in" data-aos-delay="800">
-              Take Action Now
-            </button>
+            <Button className="cta-button" text="View Global Stats" navigateTo="/global-stats" />
+            <Button className="cta-button" text="Calculate Your Impact" navigateTo="/calculate-impact" />
+            <Button className="cta-button" text="Take Action Now" navigateTo="/take-action" />
           </div>
         </div>
         <div className="gradient-overlay"></div>
@@ -112,11 +108,6 @@ const Homepage = () => {
           <h3>How can I reduce my carbon footprint?</h3>
           <p>You can reduce your carbon footprint by conserving energy, using renewable resources, reducing waste, and supporting sustainable practices.</p>
         </div>
-      </section>
-      <section className="donation sub" data-aos="fade-in">
-        <h2>Support Our Mission</h2>
-        <p>Your contribution helps us fight climate change and build a sustainable future.</p>
-        <a href="https://citizensclimatelobby.org/donate/"><button className="cta-button">Donate Now</button></a>
       </section>
 
       <footer className="footer">

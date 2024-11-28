@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import "chart.js/auto";
-import data from './assets/data.json';
+import data from '../assets/data.json';
+import AirPollutionChart from "./GlobalTemperatureChart.jsx";
 
 const GlobalTemperatureChart = () => {
   const [chartData, setChartData] = useState(null);
@@ -60,13 +61,15 @@ const GlobalTemperatureChart = () => {
   };
 
   return (
-    <div style={{ width: "90%", margin: "0 auto" }}>
-      <h1>Global Temperature Trends (1880-2023)</h1>
-      {chartData ? (
-        <Line data={chartData} options={options} />
-      ) : (
-        <p>Loading data...</p>
-      )}
+    <div>
+      <div style={{ width: "90%", margin: "0 auto" }}>
+        <h1>Global Temperature Trends (1880-2023)</h1>
+        {chartData ? (
+          <Line data={chartData} options={options} />
+        ) : (
+          <p>Loading data...</p>
+        )}
+      </div>
     </div>
   );
 };

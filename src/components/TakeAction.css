@@ -1,0 +1,147 @@
+.ta-page {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: black;
+  }
+  
+  .ta-hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+  }
+  
+  .ta-hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .ta-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .ta-hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #ccc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .ta-actions {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .ta-section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+  }
+  
+  .ta-actions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .ta-action-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .ta-action-icon {
+    font-size: 3rem;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+  }
+  
+  .ta-action-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .ta-action-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .ta-cta-button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .ta-cta-button:hover {
+    background-color: #ee5253;
+    transform: translateY(-5px);
+  }
+  
+  .ta-donate {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .ta-donate-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+  }
+  
+  .ta-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+  
+  .ta-footer p {
+    margin: 0;
+  }
+    
+  @media (max-width: 768px) {
+    .ta-hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .ta-hero p {
+      font-size: 1rem;
+    }
+  
+    .ta-actions-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ta-action-card {
+      width: 90%;
+    }
+  }
+  
