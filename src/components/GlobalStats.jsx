@@ -6,7 +6,9 @@ import data from "../assets/data.json";
 const GlobalTemperatureChart = () => {
   const [chartData, setChartData] = useState(null);
   const [co2Data, setCo2Data] = useState(null);
+  const [methaneData, setMethaneData] = useState(null);
 
+  // Load Temperature Data
   useEffect(() => {
     const years = data.map((entry) => entry.Year);
     const noSmoothing = data.map((entry) => entry.No_Smoothing);
@@ -37,6 +39,7 @@ const GlobalTemperatureChart = () => {
     setChartData(temperatureChartData);
   }, []);
 
+  // Fetch CO₂ Data
   useEffect(() => {
     const fetchCo2Data = async () => {
       try {
@@ -70,30 +73,39 @@ const GlobalTemperatureChart = () => {
     fetchCo2Data();
   }, []);
 
-  const temperatureOptions = {
-    responsive: true,
-    plugins: {
-      legend: {
-        position: "top",
-      },
-    },
-    scales: {
-      x: {
-        title: {
-          display: true,
-          text: "Year",
-        },
-      },
-      y: {
-        title: {
-          display: true,
-          text: "Temperature Anomaly (°C)",
-        },
-      },
-    },
-  };
+  // Fetch Methane Data
+  useEffect(() => {
+    const fetchMethaneData = async () => {
+      try {
+        const response = await fetch("https://global-warming.org/api/methane-api");
+        const jsonData = await response.json();
+        const dates = jsonData.methane.map((entry) => entry.date);
+        const trends = jsonData.methane.map((entry) => parseFloat(entry.trend));
 
-  const co2Options = {
+        const methaneChartData = {
+          labels: dates,
+          datasets: [
+            {
+              label: "Methane Concentration (ppb)",
+              data: trends,
+              borderColor: "rgba(255, 159, 64, 1)",
+              backgroundColor: "rgba(255, 159, 64, 0.2)",
+              fill: false,
+              tension: 0.1,
+            },
+          ],
+        };
+
+        setMethaneData(methaneChartData);
+      } catch (error) {
+        console.error("Error fetching methane data:", error);
+      }
+    };
+
+    fetchMethaneData();
+  }, []);
+
+  const commonOptions = {
     responsive: true,
     plugins: {
       legend: {
@@ -110,7 +122,7 @@ const GlobalTemperatureChart = () => {
       y: {
         title: {
           display: true,
-          text: "CO₂ Concentration (ppm)",
+          text: "Measurement",
         },
       },
     },
@@ -121,7 +133,7 @@ const GlobalTemperatureChart = () => {
       <div style={{ width: "90%", margin: "0 auto" }}>
         <h1>Global Temperature Trends (1880-2023)</h1>
         {chartData ? (
-          <Line data={chartData} options={temperatureOptions} />
+          <Line data={chartData} options={commonOptions} />
         ) : (
           <p>Loading temperature data...</p>
         )}
@@ -130,9 +142,18 @@ const GlobalTemperatureChart = () => {
       <div style={{ width: "90%", margin: "50px auto" }}>
         <h1>CO₂ Concentration Trends</h1>
         {co2Data ? (
-          <Line data={co2Data} options={co2Options} />
+          <Line data={co2Data} options={commonOptions} />
         ) : (
           <p>Loading CO₂ data...</p>
+        )}
+      </div>
+
+      <div style={{ width: "90%", margin: "50px auto" }}>
+        <h1>Methane Concentration Trends</h1>
+        {methaneData ? (
+          <Line data={methaneData} options={commonOptions} />
+        ) : (
+          <p>Loading methane data...</p>
         )}
       </div>
     </div>
